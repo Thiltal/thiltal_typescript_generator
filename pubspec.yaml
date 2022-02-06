@@ -1,7 +1,7 @@
 name: thiltal_typescript_generator
 description: Generate typescript envelope for potentially json serializable dart class
 version: 0.0.1
-author: Zdeněk Mlčoch <mlcoch.zdenek@gmail.com>
+author: Zdenek Mlcoch <mlcoch.zdenek@gmail.com>
 
 environment:
   sdk: ">=2.3.0 <3.0.0"
