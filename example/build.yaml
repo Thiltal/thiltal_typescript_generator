@@ -11,5 +11,6 @@ targets:
           explicit_to_json: true
           field_rename: none
           include_if_null: true
-          nullable: true
-
+      thiltal_typescript_generator|thiltal_typescript_reporter:
+        options:
+          first: import {UnitTypeName} from './unit/types.g';import {ImageName} from './unit/images.g';import {ItemName} from './unit/items.g';

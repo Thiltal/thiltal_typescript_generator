@@ -1,0 +1,16 @@
+{
+  "name": "boardytale",
+  "version": "0.0.3",
+  "scripts": {
+    "generate-core": "flutter pub run build_runner build --delete-conflicting-outputs && prettier --write \"**/*.ts\""
+  },
+  "private": true,
+  "devDependencies": {
+    "prettier": "^1.17.1"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "singleQuote": true
+  }
+}

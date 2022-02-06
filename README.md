@@ -32,13 +32,22 @@ Compile, run, serialize data to json. One way to do it is dynamic import from ts
         });
     }
 
-To make it working you need annotations in target package:
+To make it working you need annotations in target package pubspec.yaml:
    
     dependencies:
       thiltal_typescript_reporter: any
 
     dev_dependencies:
+      build_runner: any
+      json_serializable: any
       thiltal_typescript_generator: any
+
+In root file of model:
+
+    import 'package:thiltal_typescript_reporter/typescript_reporter.dart';
+    // + @Typescript() where needed to generate model
+
+Run command:
 
     pub run build_runner build --delete-conflicting-outputs && prettier --write "**/*.ts"
 

@@ -1,11 +1,11 @@
 targets:
   $default:
     builders:
-      typescript_generator|typescript_reporter:
+      thiltal_typescript_generator|thiltal_typescript_reporter:
         enabled: true
 
 builders:
-  typescript_reporter:
+  thiltal_typescript_reporter:
     target: ":thiltal_typescript_generator"
     import: "package:thiltal_typescript_generator/builder.dart"
     builder_factories: ["typescriptReporter"]
