@@ -10,7 +10,8 @@ dependencies:
   build: any
   source_gen: any
   thiltal_typescript_reporter:
-    path: ../thiltal_typescript_reporter
+    git:
+      url: https://github.com/Thiltal/thiltal_typescript_reporter.git
 
   
 dev_dependencies:
